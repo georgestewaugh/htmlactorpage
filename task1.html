@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            click the result show
+        </title>
+          <input id="inputbox"  onkeyup="add()">
+          
+              // <button onclick="add()">add</button>
+          <p id="result"></p>
+
+          <script>
+            var inputbox=document.getElementById("inputbox")
+            var result=document.getElementById("result")
+             
+            function add(){
+                result.textContent=inputbox.value
+            }
+
+
+          </script>
+    </head>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>task 4</title>
+        <h1 id="result">name</h1>
+
+        <button onclick="update(event)">john</button>
+        <button onclick="update(event)">praveen</button>
+        <button onclick="update(event)">kumaru</button>
+        
+      <script>
+        var h1=document.getElementById("result")
+        
+        function update(){
+            h1.textContent=event.target.textContent
+        }
+      </script> 
+    </head>
+</html>
